@@ -2,46 +2,102 @@
 /*eyes on psd cover bg on template grid- all on*/
 /*eyes on psd layer 364*/
 
-@media (min-width: 992px) {
+@media (min-width: 960px) {
+	.rectangle {
+		width: 960px;
+		height: 100%;
+	}
 	.jumbotron {
-		width: 940px;
-		height: 480px;
+		width: 960px;
+		height: 475px;
 	}
 }
 
 body {
 	padding-top: 2%;
 }
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #rectangle {
 	background: url('../images/bg-rectangle.png') no-repeat 50% 50%;
 	background-size: contain;
-	width: 100%;
+	max-width: 960px;
+	width: 960px;
+	max-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttons > ul li img {
+	display: inline;
+	max-width: 20%;
 }
 
 .phone-number {
-	max-height: 80%;
-	max-width: 80%;
+	max-height: 60%;
+	max-width: 60%;
 	float: right;
 }
 
 .logo {
 	margin-top: 0;
+	padding-bottom: 10px;
 	background-size: contain;
-/*	margin-bottom: 4%;*/
-/*	padding-bottom: 5%;*/
 }
 
 .jumbotron {
  	padding-top: 0% !important;
-/* 	min-width: 100%;*/
-/*	height: 430px;*/
-	max-width: 940px;
+	max-width: 960px;
+	width: 100%;
 	background-color: transparent !important;
-	background: url('../images/bg-hero.jpg') no-repeat 50% 50%;
+	background: url('../images/bg-hero.png') no-repeat 50% 50%;
     background-size: cover;
     -webkit-background-size: cover;
  	-moz-background-size: cover;
  	-o-background-size: cover;
  	border-radius: 0 !important;
- 	display: block;
+/* 	float: none;*/
+ 	margin: 0px auto;
+/* 	position: relative;*/
+}
+
+.image-container {
+	float: left; 
+/*	display: inline-block;*/
+}
+
+.image-container img {
+/*	max-width: 100%;
+	max-height: 100%;*/
+}
+
+.products {
+	max-width: 70%;
+	padding-top: 82%;
+}
+
+.free-gift {
+	max-width: 35%;
+}
+
+#quote {
+	background: url('../images/bg-quote.png') no-repeat 50% 50%; 
+	background-size: contain;
+	height: 100%;
+	width: 50%;
+	vertical-align: middle;
+}
+
+#quote img {
+	display: block;
+	margin-left: auto;
+	padding-top: 45%;
+	margin-right: auto;
+	max-height: 65%;
+	max-width: 65%;
+	vertical-align: middle;
 }
