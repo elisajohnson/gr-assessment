@@ -1,0 +1,47 @@
+/*eyes on psd navigation- all on except footer-livechat_new*/
+/*eyes on psd cover bg on template grid- all on*/
+/*eyes on psd layer 364*/
+
+@media (min-width: 992px) {
+	.jumbotron {
+		width: 940px;
+		height: 480px;
+	}
+}
+
+body {
+	padding-top: 2%;
+}
+#rectangle {
+	background: url('../images/bg-rectangle.png') no-repeat 50% 50%;
+	background-size: contain;
+	width: 100%;
+}
+
+.phone-number {
+	max-height: 80%;
+	max-width: 80%;
+	float: right;
+}
+
+.logo {
+	margin-top: 0;
+	background-size: contain;
+/*	margin-bottom: 4%;*/
+/*	padding-bottom: 5%;*/
+}
+
+.jumbotron {
+ 	padding-top: 0% !important;
+/* 	min-width: 100%;*/
+/*	height: 430px;*/
+	max-width: 940px;
+	background-color: transparent !important;
+	background: url('../images/bg-hero.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	border-radius: 0 !important;
+ 	display: block;
+}
