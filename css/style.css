@@ -13,6 +13,14 @@
 	}
 }
 
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    }
+
 body {
 	padding-top: 2%;
 }
@@ -32,9 +40,17 @@ body {
 	margin-right: auto;
 }
 
-.buttons > ul li img {
+.nav-buttons > div {
+/*	display: block;*/
+	width: auto;
+	height: auto;
+/*	margin-left: .5%;*/
+}
+
+.nav-buttons > div img {
 	display: inline;
-	max-width: 20%;
+	max-height: 100%;
+/*	max-width: 50%;*/
 }
 
 .phone-number {
@@ -62,22 +78,27 @@ body {
  	border-radius: 0 !important;
 /* 	float: none;*/
  	margin: 0px auto;
-/* 	position: relative;*/
+ 	position: relative;
 }
 
 .image-container {
 	float: left; 
+	height: 400px;
+	overflow: auto;
+	position: absolute;
 /*	display: inline-block;*/
 }
 
 .image-container img {
-/*	max-width: 100%;
-	max-height: 100%;*/
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .products {
 	max-width: 70%;
-	padding-top: 82%;
+	padding-top: 75%;
 }
 
 .free-gift {
@@ -95,7 +116,7 @@ body {
 #quote img {
 	display: block;
 	margin-left: auto;
-	padding-top: 45%;
+	padding-top: 50%;
 	margin-right: auto;
 	max-height: 65%;
 	max-width: 65%;
